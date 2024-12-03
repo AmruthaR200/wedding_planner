@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Planner - Wedding Type</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #FDF2E9; /* Pastel pink */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:#e3bea0; /* Pastel teal */
+            color: #542702;
+            padding: 20px 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 30px;
+        }
+        .wedding-type-card {
+            background-color: #ffe9d7; /* Pastel light blue */
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: center;
+        }
+        .wedding-type-card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #a24e0a;
+        }
+        .wedding-type-buttons {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .wedding-button {
+            background-color: #ffc391; /* Pastel green */
+            color: #000000;
+            padding: 15px;
+            width: 180px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .wedding-button:hover {
+            background-color: #a24e0a;
+        }
+        .wedding-button img {
+            width: 100%;
+            border-radius: 8px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .wedding-button p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>Wedding Planner - Wedding Type</header>
+    <div class="container">
+        <div class="wedding-type-card">
+            <h2>Choose Your Wedding Type</h2>
+            <p>Select the type of wedding that suits your style and preferences.</p>
+            <div class="wedding-type-buttons">
+                <!-- Traditional Wedding -->
+                <a href="decor.html" class="wedding-button">
+                    <img src="traditional-wedding.jpg" alt="Traditional Wedding">
+                    <p>Traditional Wedding</p>
+                </a>
+                <!-- Beach Wedding -->
+                <a href="decor.html" class="wedding-button">
+                    <img src="beach-wedding.jpg" alt="Beach Wedding">
+                    <p>Beach Wedding</p>
+                </a>
+                <!-- Rustic Wedding -->
+                <a href="decor.html" class="wedding-button">
+                    <img src="rustic-wedding.jpg" alt="Rustic Wedding">
+                    <p>Rustic Wedding</p>
+                </a>
+                <!-- Destination Wedding -->
+                <a href="decor.html" class="wedding-button">
+                    <img src="destination-wedding.jpg" alt="Destination Wedding">
+                    <p>Destination Wedding</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
